@@ -1,6 +1,6 @@
 # Astrolibrary
 
-#### Description:
+### Description:
 This program is merging my passion for *astronomy*, *astrophysics* and the *night sky* with my new found skills of programming.
 It is also officially **my very first project** after learning Python for 2 months.
 
