@@ -157,13 +157,27 @@ def main():
                         break
                     
                 pstar_size = pinfo[2]
+                pstar_colour = pinfo[3]
+
 
                 if pstar_size < 231:
 
                     # PLANETARIUM 1
+                    
+                    if "M" in pstar_colour:
+                        star = Image.open("starred.png")
+                        
+                    elif "K" in pstar_colour:
+                        star = Image.open("starorange.png")
 
-                    star = Image.open("star.png")
+                    elif "B" or "A" or "O" in pstar_colour:
+                        star = Image.open("starblue.png")
+
+                    else:
+                        star = Image.open("star.png")
+                
                     imstar = star.copy()
+                   
 
                     planetarium1 = Image.open("planetarium1.png")
                     plan1 = planetarium1.copy()
@@ -197,8 +211,19 @@ def main():
                 elif pstar_size >= 231 and pstar_size <= 1300:
                 
                     # PLANETARIUM 2
-                    
-                    star = Image.open("star.png")
+                   
+                    if "M" in pstar_colour:
+                        star = Image.open("starred.png")
+                        
+                    elif "K" in pstar_colour:
+                        star = Image.open("starorange.png")
+
+                    elif "B" or "A" or "O" in pstar_colour:
+                        star = Image.open("starblue.png")
+
+                    else:
+                        star = Image.open("star.png")
+
                     imstar = star.copy()
 
                     planetarium2 = Image.open("planetarium2.png")
@@ -233,8 +258,19 @@ def main():
                 elif pstar_size > 1300:
                 
                     # PLANETARIUM 3
-                
-                    star = Image.open("star.png")
+                    
+                    if "M" in pstar_colour:
+                        star = Image.open("starred.png")
+                        
+                    elif "K" in pstar_colour:
+                        star = Image.open("starorange.png")
+
+                    elif "B" or "A" or "O" in pstar_colour:
+                        star = Image.open("starblue.png")
+
+                    else:
+                        star = Image.open("star.png")
+
                     imstar = star.copy()
 
                     planetarium3 = Image.open("planetarium3.png")
