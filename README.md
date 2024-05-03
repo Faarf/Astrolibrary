@@ -22,9 +22,7 @@ pip install requests
 pip install prettytables
 pip install pillow
 ````
-Download the folder and run project.py.
-As long as planetarium1.png, 2 and 3 aswell as star.png is in the same folder as project.py, it will work fine.
-
+Download the folder and run astrolibrary.py.
 
 ### Table of contents
 
@@ -183,6 +181,14 @@ If you did this for a larger star, like Betelgeuse it would then use the second 
 **After (Betelgeuse)**
 
 <img src="betelgeuse.png" width="350" height="350" />
+
+The colour of the star is also determined by the startype. 
+ - M types = Red
+ - K types = Orange
+ - G and F types = Yellow/white
+ - A, B and O types = Blue
+
+M types are the least hot, O types are the hottest.
 
 The planterium is reusable and doesn't affect the original images.
 It also tells you if the replacing went through without issue and reprompts you if the star doesn't exist or if the size information couldn't be retrieved.
@@ -364,7 +370,7 @@ If I want to continue with this project further, here are a few things I could d
 
 * Get a better database, either another website or preferably a good API.
 * Additional zooms on the solar system images, so there is more variety and accuracy to the star sizes.
-* A different colour star image depending on the star, because the startype actually tells you what the star's colour would be.
+* A different colour star image depending on the star, because the startype actually tells you what the star's colour would be. *(Added 03/05-2024)*
 * More reprompting options. *(Added 29/4-2024)*
 * A GUI, but I dont know that kind of code yet.
 
