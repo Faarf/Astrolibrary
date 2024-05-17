@@ -379,4 +379,5 @@ Other than that, I am proud of what I've accomplished on my very first project a
 #### *Keep looking up.*
 
 **This project all-in-all took me one week, about 20 hours, 15 of which was coding related.**
-*Not including the extra improvements afterwards*
+/b
+(*Not including the extra improvements afterwards*)
