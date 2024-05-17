@@ -110,7 +110,7 @@ Betelgeuse is 13.33 times more massive than Polaris.
 
 But, it will also add an descriptive text to emphasize differences. The one greater than the other in the specified value will always be mentioned first.
 
-I made sure to include 2 digits, because otherwise the first sentence would read "Polaris is 1.0 times farther away than Betelgeuse." Which wouldn't make much sense.
+I made sure to include 2 digits, because otherwise the first sentence would read "Polaris is 1.0 times farther away than Betelgeuse." which wouldn't make much sense.
 
 I also include corner cases. There are times when the website I use doesn't have values for the things I need. 
 To fix this, I assigned all variables with "?" from the beginning, and if the regex found something, it would be replace with the designated value.
@@ -379,3 +379,4 @@ Other than that, I am proud of what I've accomplished on my very first project a
 #### *Keep looking up.*
 
 **This project all-in-all took me one week, about 20 hours, 15 of which was coding related.**
+*Not including the extra improvements afterwards*
