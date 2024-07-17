@@ -36,11 +36,11 @@ Download the folder and run astrolibrary.py.
 - Functions
 - Notes of improvements
 
-### How does it work?
+#### How does it work?
 
 The program is simple enough when you start it that no explanation is really needed to navigate and understand what it does, but if you want to dive deeper here it goes. *You might find the planetarium quite interesting.*
 
-#### Star information
+### Star information
 
 The first feature, to show information of a star is quite simple.
 When you enter the name of a star, the program will web scrape from [The Internet Stellar Database](http://www.stellar-database.com/) using regular expression to find the information I decided was relevant. That is, *name*, *distance*, *size*, *star type*, type of *starsystem*, *mass* and *apparent visual magnitude* (how easy/hard it is to see with the naked eye).
@@ -85,7 +85,7 @@ Astronomy is evolving after each new instrument implemented, so its data is outd
 
 But after fact-checking I realized that most information is roughly the same today and varies from star to star. Its only the star distances that is on the low-end. For example, the information on Polaris is totally accurate, but on Betelgeuse its slightly wrong. The site says it is 427 light-years away but today's figures says its between 600 - 700 light-years away. To the sites defence, all the other information is accurate.
 
-#### Star comparison
+### Star comparison
 
 You will be prompted to enter the names of two stars.
 
@@ -138,7 +138,7 @@ Gamma Draconis is 1.94 times bigger than Dubhe.
 Also notice that I entered "Etamin" for the second star, but the output is "Gamma Draconis".
 The website has aliases for all the stars, but I coded it to use the first one, meaning if you use a less popular name for a star, the primary one will be used for you.
 
-#### The Planetarium, solar system scale model
+### The Planetarium, solar system scale model
 
 I was very pleased that I made this work. I knew I wanted it and knew it was possible, but didn't really know how to do it.
 
